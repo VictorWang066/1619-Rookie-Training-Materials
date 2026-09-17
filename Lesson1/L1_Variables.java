@@ -11,8 +11,10 @@ public static void main(String[] args) {
     // Finally, create a variable with any of the above values using the keyword "var"
 
 
-    
     // Now, print out all of these variables in seperate lines using "println()"
+
+
+    // Next, try changing some of the variable's values and printing them again
 
 }
 }
