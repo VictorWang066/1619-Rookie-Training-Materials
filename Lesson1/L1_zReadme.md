@@ -44,6 +44,7 @@ understand that whatever is within them should be read as text and not code.
     The second part is that your code needs to know when to stop reading each line of your command, think
 of it like the commas at the end of each sentence. How Java does this is through semi-colons(;), for our
 purposes, just remember to add semi-colons at the end of each line.
+
     Now you've learned everything, move on to "L1_HelloWorld.java" and complete the practices there
 
 ------------------------------------------------------------------------------------------------
@@ -66,10 +67,18 @@ properly deal with your variable.
     - String: used to store sentances and phrases (that are within a paires of parenthesis)
     - int: used to store an integer, or whole number
     - double: used to store fractions and decimal numbers
-    - Boolean: used to store a "true or false" value
+    - boolean: used to store a "true or false" value
     And lastly, there is the "var" keyword, which adapts to the datatype you assign to it. We do not 
-    recommend using it, however, since it makes code less understandable by others, and will lead to
-    certain functionalities associated with the original datatype being unusable
+    recommend using it, however, since it makes code less understandable by others.
+    One final thing, just like you are able to change the things you store in a cabinet, you can change
+the values stored in variables. And, as you've already defined what type of variables would be stored,
+you only need to use the name of the variable when changing the value inside it. For example, if I want
+to change the number in my "age" variable defined above, I just have to write "age = 19". In fact, 
+because writing out the datatype means declaring a new variable to the code, if you did put "int" infront,
+you would have made another "age" variable, instead of changing the original one. (Also because of this,
+"var" would only adapt once, so you can't make a type "var" variable that used to house a integer to a 
+string value, for example)
+
     Now you've learned everything, move on to "L1_HelloWorld.java" and complete the practices there
 
 ------------------------------------------------------------------------------------------------

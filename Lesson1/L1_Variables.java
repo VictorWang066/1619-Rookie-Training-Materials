@@ -4,9 +4,9 @@ public static void main(String[] args) {
 
     // Create a integer variable with an initial value of 1 here using the keyword "int"
 
-    // Create a double variable with an initial value of 2.0 here using the keyword "double"
+    // Create a double variable with an initial value of 2.5 here using the keyword "double"
 
-    // Create a boolean variable with an initial value of true here using the keyword "Boolean"
+    // Create a boolean variable with an initial value of true here using the keyword "boolean"
 
     // Finally, create a variable with any of the above values using the keyword "var"
 
@@ -14,6 +14,8 @@ public static void main(String[] args) {
     // Now, print out all of these variables in seperate lines using "println()"
 
 
+    System.out.println("-----------------------"); // prints a line break
+    
     // Next, try changing some of the variable's values and printing them again
 
 }
